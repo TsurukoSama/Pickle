@@ -1,0 +1,65 @@
+body {
+    background: repeating-linear-gradient(
+        to right,
+        rgb(42, 177, 0),
+        rgb(42, 177, 0) 10px,
+        rgb(43, 253, 113) 10px,
+        rgb(43, 253, 113) 20px)}
+
+iframe {
+    border: 10px solid, #2AB109;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 60px;
+      }
+
+.output {
+    background: rgb(90, 226, 85);}
+
+img {
+    border: 10px solid,#2AB109;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 50px;}
+
+.topnav {
+        background-color:  rgb(253, 255, 141);
+        overflow: hidden;}
+.topnav a {
+    float: left;
+    color: #005a08;
+    text-align: left;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+          }
+
+.topnav a:hover {
+    background-color:rgb(0, 90, 0);
+    color: rgb(253, 255, 141);}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;}
+
+     /*scrollbar*/
+ ::-webkit-scrollbar {
+    width: 12px;}
+     
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+    background-color:rgb(102, 255, 51);}
+     
+::-webkit-scrollbar-thumb {
+        border:solid rgb(42, 177, 0);
+        border-radius: 10px;
+        background-color:rgb(102, 255, 51);
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+    }
+::-webkit-scrollbar-button:vertical {
+    background-color:rgb(102, 255, 51);
+    border: 3px solid rgb(42, 177, 0);
+    border-radius: 10px}
